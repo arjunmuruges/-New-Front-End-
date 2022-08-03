@@ -1,0 +1,80 @@
+body
+{
+    background-color: black;
+}
+.main
+{
+    /* border: 1px solid red; */
+    /* background-color:rgb(246, 191, 200); */
+    
+}
+.main #sub1,#sub2
+{
+    display: inline-block;
+}
+.main #sub1 
+{
+    /* border: 1px solid blue; */
+    padding-top: 250px;
+    background: #fff;
+    padding-top: 550px;
+    padding-right: 210px;
+    position: relative;
+    bottom: 15px;
+    left: 30px;
+}
+
+.main #sub1 a,h1,p,input
+{
+   text-align: left;
+   margin-left: 280px;
+}
+.main #sub1 a
+{
+    position: absolute;
+    top: 30px;
+}
+.main #sub1 h1
+{
+    position: absolute;
+    top: 120px;
+    font-size: 60px;
+}
+.main #sub1 h1 span
+{
+    color: rgb(238, 199, 205); 
+}
+.main #sub1 p
+{
+    position: absolute;
+    top: 360px;
+    line-height: 25px;
+    color:  palevioletred;
+}
+.main #sub1 input,button
+{
+    position: relative;
+    top: -80px;
+    padding:10px 30px;
+    border-radius: 20px;
+}
+.main #sub1 button
+{
+   position: relative;
+   right: 30px;
+   background-color: rgb(238, 199, 205);
+   color: #fff;
+   font-size: large;
+   border: none;
+}
+.main #sub1 input
+{
+    border: 1px solid #fff;
+    border-color: palevioletred;
+}
+.main #sub2 img
+{
+    margin-left: -5px;
+    margin-top: 10px;
+}
+
